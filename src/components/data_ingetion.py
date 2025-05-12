@@ -15,6 +15,11 @@ class DataIngestionConfig:
     test_data_path: str =os.path.join(config.artifacts_dir, 'test.csv')
     raw_data_path: str =os.path.join(config.artifacts_dir, 'raw.csv')
     dataset_path: str = os.path.join(config.notebooks_dir, 'data', 'gemstone.csv')
+# (class DataIngestionconfig:
+#     train_data_path=os.path.join('artifacts','train.csv')
+#     test_data_path=os.path.join('artifacts','test.csv')
+#     raw_data_path=os.path.join('artifacts','raw.csv'))
+# in this u we directely use the path of the artifacts dir
 
 ## create a data ingestion class
 
